@@ -19,6 +19,7 @@ AsteroidOS 2.0 has arrived, with major features like Always-on-Display, more sup
    * [compass support](https://github.com/AsteroidOS/asteroid-compass)
    * [flashlight app](https://github.com/AsteroidOS/asteroid-flashlight)
    * [HRM app](https://github.com/AsteroidOS/asteroid-hrm)
+   * [Asteroid Diamonds](https://github.com/AsteroidOS/asteroid-diamonds)
    * Qt 5.15 upgrade
    * the timer app works in the background
    * [more translations (56 languages)](https://hosted.weblate.org/projects/asteroidos/)
