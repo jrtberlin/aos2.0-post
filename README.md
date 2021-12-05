@@ -45,9 +45,8 @@ In addition to new watches, we've also been busy improving the support for our a
    * Asus Zenwatch: The long standing issue of the touch screen issue has been solved.
    * Asus Zenwatch 2: Sensors have been fixed. Bluetooth problems fixed
    * Asus Zenwatch 3: Sensors have been fixed.
-   * Sony Smartwatch 3: Sensors have been fixed.
 
-The Sony Smartwatch 3 (tetra) is now unsupported and unmaintained due to hardware [issues](https://github.com/AsteroidOS/meta-tetra-hybris/issues). We will provide install images (via [release.asteroidos.org](https://release.asteroidos.org)) for the time being but we are not listing it on our webpage.
+Despite recent minor improvements we decided to remove the Sony Smartwatch 3 (tetra) from our official support due to hardware [issues](https://github.com/AsteroidOS/meta-tetra-hybris/issues). We will provide install images (via [release.asteroidos.org](https://release.asteroidos.org)) for the time being but we are not listing it on our webpage.
 
 ## Clients
 
