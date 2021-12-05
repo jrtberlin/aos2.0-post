@@ -47,6 +47,7 @@ In addition to new watches, we've also been busy improving the support for our a
    * Asus Zenwatch 3: Sensors have been fixed.
    * Sony Smartwatch 3: Sensors have been fixed.
 
+The Sony Smartwatch 3 (tetra) is now unsupported and unmaintained. We will provide install images (via [release.asteroidos.org](https://release.asteroidos.org)) for the time being but we are not listing it on our webpage.
 
 ## Clients
 
