@@ -86,7 +86,7 @@ AsteroidOS has now support for [round screens with a cut-off](https://github.com
 
 PostmarketOS now offers our launcher and core apps, thanks to [PureTryOut](todo), who moved our buildsystem from qmake to cmake along the way.
 
-MagneFire and JRT joined the AsteroidOS team.
+MagneFire, jrt and eLtMosen joined the AsteroidOS team.
 
 ## Community
 
