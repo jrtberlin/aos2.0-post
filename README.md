@@ -11,6 +11,8 @@ AsteroidOS 2.0 has arrived, with major features like Always-on-Display, more sup
    * [palm-to-sleep](https://github.com/AsteroidOS/mce/pull/11)
    * [Color Emoji](https://github.com/AsteroidOS/meta-asteroid/pull/56)
    * [music control](https://github.com/AsteroidOS/AsteroidOSSync/pull/117)
+   * [Weather app design overhaul](https://github.com/AsteroidOS/asteroid-weather/pull/12)
+   * [Wallpaper gallery speed improvements](https://github.com/AsteroidOS/asteroid-settings/pull/39)
    * [Lag fix when more notifications appear](https://github.com/AsteroidOS/asteroid-launcher/pull/58)
    * base upgraded to Honister
    * [new wallpapers](https://github.com/AsteroidOS/asteroid-wallpapers/pull/4)
