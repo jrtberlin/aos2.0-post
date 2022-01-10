@@ -1,43 +1,43 @@
 
 # AsteroidOS 2.0
 
-There is no denying that it has been a while since our last release, but it's finally here!
+It has been a while since our last release, but it's finally here!
 
 AsteroidOS 2.0 has arrived, with major features like Always-on-Display, more supported watches, new launcher styles and improvements to our clients.
 
    * [Always-on Display](https://github.com/AsteroidOS/asteroid/issues/58)
    * [Tilt-to-wake](https://github.com/AsteroidOS/mce/pull/6)
    * [App Launcher Styles](https://github.com/AsteroidOS/asteroid-settings/pull/35)
-   * [palm-to-sleep](https://github.com/AsteroidOS/mce/pull/11)
+   * [Palm-to-sleep](https://github.com/AsteroidOS/mce/pull/11)
    * [Color Emoji](https://github.com/AsteroidOS/meta-asteroid/pull/56)
-   * [music control](https://github.com/AsteroidOS/AsteroidOSSync/pull/117)
+   * [Music control](https://github.com/AsteroidOS/AsteroidOSSync/pull/117)
    * [Weather app design overhaul](https://github.com/AsteroidOS/asteroid-weather/pull/12)
    * [Wallpaper gallery speed improvements](https://github.com/AsteroidOS/asteroid-settings/pull/39)
    * [Lag fix when more notifications appear](https://github.com/AsteroidOS/asteroid-launcher/pull/58)
-   * base upgraded to Honister
-   * [new wallpapers](https://github.com/AsteroidOS/asteroid-wallpapers/pull/4)
-   * new UI elements (improved toggles, progress bars,...)
-   * [initial step counting support](https://github.com/AsteroidOS/qtsensors/pull/1)
-   * [compass support](https://github.com/AsteroidOS/asteroid-compass)
-   * [flashlight app](https://github.com/AsteroidOS/asteroid-flashlight)
-   * [HRM app](https://github.com/AsteroidOS/asteroid-hrm)
-   * [Asteroid Diamonds](https://github.com/AsteroidOS/asteroid-diamonds)
+   * Base upgraded to OpenEmbedded Honister
+   * [New wallpapers](https://github.com/AsteroidOS/asteroid-wallpapers/pull/4)
+   * New UI elements (improved toggles, progress bars,...)
+   * [Initial step counting support](https://github.com/AsteroidOS/qtsensors/pull/1)
+   * [Compass support](https://github.com/AsteroidOS/asteroid-compass)
+   * [Flashlight app](https://github.com/AsteroidOS/asteroid-flashlight)
+   * [Heart rate monitor app](https://github.com/AsteroidOS/asteroid-hrm)
+   * [Diamonds](https://github.com/AsteroidOS/asteroid-diamonds), a 2048 like game
    * Qt 5.15 upgrade
-   * the timer app works in the background
-   * [more translations (56 languages)](https://hosted.weblate.org/projects/asteroidos/)
-   * [support for Bluetooth HID and Audio](https://github.com/AsteroidOS/meta-asteroid/pull/27)
-   * [ringtone vibration pattern](https://github.com/AsteroidOS/asteroid/issues/99)
+   * The timer app works in the background
+   * [More translations (56 languages)](https://hosted.weblate.org/projects/asteroidos/)
+   * [Support for Bluetooth HID and Audio](https://github.com/AsteroidOS/meta-asteroid/pull/27)
+   * [Ringtone vibration pattern](https://github.com/AsteroidOS/asteroid/issues/99)
 
 
 ## Supported Hardware
 
-Since 1.0 we added the following watches:
+Since 1.0 we added support for the following watches:
 
-   * Huawei Watch
-   * Huawei Watch 2
-   * Moto 360 2015
-   * MTK6580 (Harmony/Inharmony)
-   * Ticwatch E \& S
+   * Huawei Watch (sturgeon)
+   * Huawei Watch 2 (sawfish/sawshark)
+   * Moto 360 2015 (smelt)
+   * MTK6580 (harmony/inharmony)
+   * Ticwatch E \& S (mooneye)
    * Skagen Falster 2 (ray)
    * Fossil Gen 4 Watches (firefish)
    * Ticwatch C2+ (skipjack)
@@ -46,19 +46,19 @@ Since 1.0 we added the following watches:
 In addition to new watches, we've also been busy improving the support for our already supported watches:
 
    * Asus Zenwatch: The long standing issue of the touch screen issue has been solved.
-   * Asus Zenwatch 2: Sensors have been fixed. Bluetooth problems fixed
+   * Asus Zenwatch 2: Sensors have been fixed. Bluetooth problems fixed.
    * Asus Zenwatch 3: Sensors have been fixed.
 
-Despite recent minor improvements we decided to remove the Sony Smartwatch 3 (tetra) from our official support due to hardware [issues](https://github.com/AsteroidOS/meta-tetra-hybris/issues). We will provide install images (via [release.asteroidos.org](https://release.asteroidos.org)) for the time being but we are not listing it on our webpage.
+Despite recent minor improvements we decided to remove the Sony Smartwatch 3 (tetra) from our official support due to hardware [issues](https://github.com/AsteroidOS/meta-tetra-hybris/issues). We will provide install images (via [release.asteroidos.org](https://release.asteroidos.org)) for the time being but we are not listing it as a supported watch on our webpage anymore.
 
 ## Clients
 
 ### Android
 
    * [Call detection and display](https://github.com/AsteroidOS/AsteroidOSSync/pull/110)
-   * [new Bluetooth lib](https://github.com/AsteroidOS/AsteroidOSSync/pull/127) should improve stability and simplify the paring process
-   * a more modular architecture, allowing for easier extending and maintainability of the app.
-   * [custom OWM API key support](https://github.com/AsteroidOS/AsteroidOSSync/pull/142)
+   * [New Bluetooth lib](https://github.com/AsteroidOS/AsteroidOSSync/pull/127) should improve stability and simplify the paring process
+   * A more modular architecture, allowing for easier extending and maintainability of the app.
+   * [Custom OWM API key support](https://github.com/AsteroidOS/AsteroidOSSync/pull/142)
 
 
 ### UBports
@@ -78,13 +78,13 @@ Alongside 2.0 we introduce a community repository, to improve discoverability an
 
 The second and smaller change is the switch to Markdown as our primary markup language for documentation. This enables users without deeper knowledge to contribute to the documentation via GitHub's integrated editor and us to switch the static site generator in the future.
 
-In late March, we moved our infrastructure to a larger server at Hetzner. While this increased the costs, it already resulted in more frequent nightly releases.
+In late March, we moved our infrastructure to a larger server. This resulted in more frequent nightly releases.
 
 On the repository of AsteroidOS Sync, our Android app, we enabled automatic builds on pull requests to catch issues with future changes early.
 
 ## Minor Changes
 
-AsteroidOS has now support for [round screens with a cut-off](https://github.com/AsteroidOS/meta-asteroid/pull/41) and 
+AsteroidOS has now support for [round screens with a cut-off](https://github.com/AsteroidOS/meta-asteroid/pull/41).
 
 PostmarketOS now offers our launcher and core apps, thanks to [PureTryOut](todo), who moved our buildsystem from qmake to cmake along the way.
 
