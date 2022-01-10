@@ -1,32 +1,37 @@
 
 # AsteroidOS 2.0
 
-It has been a while since our last release, but it's finally here!
+Asteroids travel steady. Occasionally, they leave observable distance.
+It has been a while since our last release, now it's finally here!
 
-AsteroidOS 2.0 has arrived, with major features like Always-on-Display, more supported watches, new launcher styles and improvements to our clients.
+AsteroidOS 2.0 has arrived and attracted major features and improvements along its journey through community space.
+Like Always-on-Display, more supported watches, new launcher styles and improvements to our clients.
 
    * [Always-on Display](https://github.com/AsteroidOS/asteroid/issues/58)
    * [Tilt-to-wake](https://github.com/AsteroidOS/mce/pull/6)
    * [App Launcher Styles](https://github.com/AsteroidOS/asteroid-settings/pull/35)
    * [Palm-to-sleep](https://github.com/AsteroidOS/mce/pull/11)
-   * [Color Emoji](https://github.com/AsteroidOS/meta-asteroid/pull/56)
+   * [Heart rate monitor app](https://github.com/AsteroidOS/asteroid-hrm)
    * [Music control](https://github.com/AsteroidOS/AsteroidOSSync/pull/117)
    * [Weather app design overhaul](https://github.com/AsteroidOS/asteroid-weather/pull/12)
-   * [Wallpaper gallery speed improvements](https://github.com/AsteroidOS/asteroid-settings/pull/39)
-   * [Lag fix when more notifications appear](https://github.com/AsteroidOS/asteroid-launcher/pull/58)
+   * [Calculator app with new layout](https://github.com/AsteroidOS/asteroid-calculator/pull/4)
+   * [Wallpaper gallery speed improvement](https://github.com/AsteroidOS/asteroid-settings/pull/39)
+   * [Lag fix when multiple notifications appear](https://github.com/AsteroidOS/asteroid-launcher/pull/58)
+   * Noto Sans system font
+   * [Color Emoji](https://github.com/AsteroidOS/meta-asteroid/pull/56)
    * Base upgraded to OpenEmbedded Honister
    * [New wallpapers](https://github.com/AsteroidOS/asteroid-wallpapers/pull/4)
    * New UI elements (improved toggles, progress bars,...)
    * [Initial step counting support](https://github.com/AsteroidOS/qtsensors/pull/1)
    * [Compass support](https://github.com/AsteroidOS/asteroid-compass)
    * [Flashlight app](https://github.com/AsteroidOS/asteroid-flashlight)
-   * [Heart rate monitor app](https://github.com/AsteroidOS/asteroid-hrm)
    * [Diamonds](https://github.com/AsteroidOS/asteroid-diamonds), a 2048 like game
    * Qt 5.15 upgrade
    * The timer app works in the background
    * [More translations (56 languages)](https://hosted.weblate.org/projects/asteroidos/)
    * [Support for Bluetooth HID and Audio](https://github.com/AsteroidOS/meta-asteroid/pull/27)
    * [Ringtone vibration pattern](https://github.com/AsteroidOS/asteroid/issues/99)
+   * Animated Bootsplash logo
 
 
 ## Supported Hardware
@@ -84,7 +89,7 @@ On the repository of AsteroidOS Sync, our Android app, we enabled automatic buil
 
 ## Minor Changes
 
-AsteroidOS has now support for [round screens with a cut-off](https://github.com/AsteroidOS/meta-asteroid/pull/41).
+AsteroidOS now supports [round screens with a cut-off](https://github.com/AsteroidOS/meta-asteroid/pull/41).
 
 PostmarketOS now offers our launcher and core apps, thanks to [PureTryOut](todo), who moved our buildsystem from qmake to cmake along the way.
 
@@ -92,9 +97,9 @@ MagneFire, jrt and eLtMosen joined the AsteroidOS team.
 
 ## Community
 
-Our community sometimes comes up with funny or beautiful new watchfaces. Here are some examples of the recent highlights:
+Our community comes up with funny and beautiful new watchfaces. Here are some examples of the recent highlights:
 
-eLtMosen has created new watchfaces like the minimalistic [pulsedot watchface](https://www.youtube.com/watch?v=UETFXGV2dgU) and the Monty Python [silly walks watchface](https://twitter.com/eLtMosen/status/1403642123338014722). Most of his creations are available in the [unofficial-watchface repository](https://github.com/AsteroidOS/unofficial-watchfaces).
+eLtMosen has created the minimalistic [pulsedot watchface](https://www.youtube.com/watch?v=UETFXGV2dgU) and the Monty Python [silly walks watchface](https://twitter.com/eLtMosen/status/1403642123338014722). Most of his creations are available in the [unofficial-watchface repository](https://github.com/AsteroidOS/unofficial-watchfaces).
 
 MagneFire did show-off a few emulators, Doom, [Super Tux Kart](https://fosstodon.org/@MagneFire/107105850296484856) and a 2048 port on his watch.
 
