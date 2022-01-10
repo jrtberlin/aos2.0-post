@@ -1,7 +1,7 @@
 
 # AsteroidOS 2.0
 
-Asteroids travel steady. Occasionally, they leave observable distance.
+Asteroids travel steady. Occasionally, they leave observable distance.\
 It has been a while since our last release, now it's finally here!
 
 AsteroidOS 2.0 has arrived and attracted major features and improvements along its journey through community space.
@@ -27,7 +27,7 @@ Like Always-on-Display, more supported watches, new launcher styles and improvem
    * [Flashlight app](https://github.com/AsteroidOS/asteroid-flashlight)
    * [Diamonds](https://github.com/AsteroidOS/asteroid-diamonds), a 2048 like game
    * Qt 5.15 upgrade
-   * The timer app works in the background
+   * [Timer app redesign](https://github.com/AsteroidOS/asteroid-timer/pull/10)\ The timer app works in the background now and got optimised for use on round watches.
    * [More translations (56 languages)](https://hosted.weblate.org/projects/asteroidos/)
    * [Support for Bluetooth HID and Audio](https://github.com/AsteroidOS/meta-asteroid/pull/27)
    * [Ringtone vibration pattern](https://github.com/AsteroidOS/asteroid/issues/99)
