@@ -14,7 +14,7 @@ Always-on-Display, many more supported watches, new launcher styles, major perfo
    * [Tilt-to-wake](https://github.com/AsteroidOS/mce/pull/6)
    * [Palm-to-sleep](https://github.com/AsteroidOS/mce/pull/11)
    * [Heart rate monitor app](https://github.com/AsteroidOS/asteroid-hrm)
-   * [Music control](https://github.com/AsteroidOS/AsteroidOSSync/pull/117)
+   * [Music volume control](https://github.com/AsteroidOS/AsteroidOSSync/pull/117)
    * [Compass support](https://github.com/AsteroidOS/asteroid-compass)
    * [Initial step counting support](https://github.com/AsteroidOS/qtsensors/pull/1)
    * [Support for Bluetooth HID and Audio](https://github.com/AsteroidOS/meta-asteroid/pull/27)
@@ -37,7 +37,7 @@ Successfull bug hunt is always satisfying. Even more so in an area we use freque
    * [Calculator app with new layout](https://github.com/AsteroidOS/asteroid-calculator/pull/4)  
 Improved button layout for easier operation and better legibility, especially on round displays.
    * [New wallpapers](https://github.com/AsteroidOS/asteroid-wallpapers/pull/4)  
-Extending on the well recieved flatmesh design, triangulated wallpapers turned out to fit beautifully.
+Extending on the well received flatmesh design, triangulated wallpapers turned out to fit beautifully.
    * [Diamonds](https://github.com/AsteroidOS/asteroid-diamonds)  
 A 2048 like game with a fresh twist. Suited nicely for small resolutions and displays.
    * [More translations (49 languages)](https://hosted.weblate.org/projects/asteroidos/)  
