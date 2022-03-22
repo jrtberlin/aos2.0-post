@@ -29,11 +29,11 @@ Improved toggles, progress bars and other UI elements by unifying the design and
    * [New App Launchers](https://github.com/AsteroidOS/asteroid-settings/pull/35)  
 Four more App Launcher stills have been added. Those can be selected in the new Launcher settings page.
    * [Enhanced Wallpaper](https://github.com/AsteroidOS/asteroid-settings/pull/39) and [Watchface gallery](https://github.com/AsteroidOS/asteroid-settings/pull/40)  
-Watchfaces are now paired with the user selected Wallpaper already in the Watchface gallery. Aiding to find your favourite combination at a glance. Both pages recieved major performance improvments.
+Watchfaces are now paired with the user selected Wallpaper already in the Watchface gallery. Aiding to find your favourite combination at a glance. Both pages received major performance improvements.
    * [Ringtone vibration pattern](https://github.com/AsteroidOS/asteroid/issues/99)
 Customise all the things! Here, the vibration pattern on incoming calls.
    * [Lag fix when multiple notifications appear](https://github.com/AsteroidOS/asteroid-launcher/pull/58)  
-Successfull bug hunt is always satisfying. Even more so in an area we use frequently.
+Successful bug hunt is always satisfying. Even more so in an area we use frequently.
    * [Calculator app with new layout](https://github.com/AsteroidOS/asteroid-calculator/pull/4)  
 Improved button layout for easier operation and better legibility, especially on round displays.
    * [New wallpapers](https://github.com/AsteroidOS/asteroid-wallpapers/pull/4)  
@@ -47,11 +47,11 @@ Supporting the localisation efforts, Noto Sans offers consistent font styles for
    * [Color Emoji](https://github.com/AsteroidOS/meta-asteroid/pull/56)  
 Underlining the flat nature of our UI, we moved from Noto Color Emoji to Twemoji.
    * [Weather app design overhaul](https://github.com/AsteroidOS/asteroid-weather/pull/12)  
-Embracing the new possiblilities Noto Sans and its vast variety of font styles offers. The weather app got refinded towards better legibility and presentation of very long place names.
+Embracing the new possibilities Noto Sans and its vast variety of font styles offers. The weather app got refined towards better legibility and presentation of very long place names.
    * [Timer app redesign](https://github.com/AsteroidOS/asteroid-timer/pull/10)  
-The timer app works in the background now. It got optimised for use on round watches. The design is now consitent with the stopwatch.
+The timer app works in the background now. It got optimised for use on round watches. The design is now consistent with the stopwatch.
    * [Flashlight app](https://github.com/AsteroidOS/asteroid-flashlight)  
-Yupp, it flashes light. Most useful, so it got added to the stock selection.
+Yup, it flashes light. Most useful, so it got added to the stock selection.
    * [Animated Bootsplash logo](https://github.com/AsteroidOS/meta-asteroid/commit/b8f4403139cabf0ff83a663968d901c668151180)  
 A very small touch. But yet another possibility for designers to get involved.
 
@@ -101,7 +101,7 @@ Enabled by recent improvements in the SailfishOS BLE stack, our community member
 
 ## Infrastructure
 
-Alongside 2.0 we introduce a community repository, to improve discoverability and simplify the installation of precompiled packages, while building the foundation for a possible graphical software center in the future. Currently, the repository consists of a few debugging tools, {community watchfaces}, games and emulators. Developers are welcome to create pull requests on the [meta-community](https://github.com/AsteroidOS/meta-asteroid-community) repo for packaging.
+With 2.0 we introduce a community repository, to improve discoverability and simplify the installation of precompiled packages, while building the foundation for a possible graphical software center in the future. Currently, the repository consists of a few debugging tools, {community watchfaces}, games and emulators. Developers are welcome to create pull requests on the [meta-community](https://github.com/AsteroidOS/meta-asteroid-community) repo for packaging.
 
 The second and smaller change is the switch to Markdown as our primary markup language for documentation. This enables users without deeper knowledge to contribute to the documentation via GitHub's integrated editor. And will help us to switch the static site generator in the future.
 
