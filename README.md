@@ -22,14 +22,14 @@ Always-on-Display, many more supported watches, new launcher styles, major perfo
    * Qt 5.15 upgrade
 
 
-## Design, usability and app improvements  //make it sound nicer or snappier plz
+## Design, usability and app improvements
 
    * New UI elements  
 Improved toggles, progress bars and other UI elements by unifying the design and removing inconsistencies.
    * [New App Launchers](https://github.com/AsteroidOS/asteroid-settings/pull/35)  
-Four more App Launcher stills have been added. Those can be selected in the new Launcher settings page.
+Four more App Launcher styles have been added. Those can be selected in the new Launcher settings page.
    * [Enhanced Wallpaper](https://github.com/AsteroidOS/asteroid-settings/pull/39) and [Watchface gallery](https://github.com/AsteroidOS/asteroid-settings/pull/40)  
-Watchfaces are now paired with the user selected Wallpaper already in the Watchface gallery. Aiding to find your favourite combination at a glance. Both pages received major performance improvements.
+Watchfaces are now paired with the user selected Wallpaper already in the Watchface gallery. Helping to find your favourite combination at a glance. Both pages received major performance improvements.
    * [Ringtone vibration pattern](https://github.com/AsteroidOS/asteroid/issues/99)
 Customise all the things! Here, the vibration pattern on incoming calls.
    * [Lag fix when multiple notifications appear](https://github.com/AsteroidOS/asteroid-launcher/pull/58)  
