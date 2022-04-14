@@ -65,9 +65,10 @@ Since 1.0 we added support for the following watches:
    * Moto 360 2015 (smelt)
    * MTK6580 (harmony/inharmony)
    * Ticwatch E \& S (mooneye)
-   * Skagen Falster 2 (ray)
-   * Fossil Gen 4 Watches (firefish)
+   * Fossil Gen 4 Watches (firefish/ray)
    * Ticwatch C2+ (skipjack)
+   * Ticwatch Pro, Pro 2020 and LTE (catfish/catfish-ext/catshark)
+   * LG Watch W7 (narwhal)
 
 
 In addition to new watches, we've also been busy improving the support for our already supported watches:
