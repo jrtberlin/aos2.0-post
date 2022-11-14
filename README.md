@@ -102,6 +102,8 @@ Enabled by recent improvements in the SailfishOS BLE stack, our community member
 
 ## Infrastructure
 
+Our website [asteroidos.org](https://asteroidos.org) has seen a major content extension. A [FAQ](https://asteroidos.org/faq/) section has been added to provide a quick overview of our project. The [Documentation](https://asteroidos.org/wiki/documentation/) pages are frequently updated by community members and nicely keep up with the current state of development.
+
 With 2.0 we introduce a community repository, to improve discoverability and simplify the installation of precompiled packages, while building the foundation for a possible graphical software center in the future. Currently, the repository consists of a few debugging tools, {community watchfaces}, games and emulators. Developers are welcome to create pull requests on the [meta-community](https://github.com/AsteroidOS/meta-asteroid-community) repo for packaging.
 
 The second and smaller change is the switch to Markdown as our primary markup language for documentation. This enables users without deeper knowledge to contribute to the documentation via GitHub's integrated editor. And will help us to switch the static site generator in the future.
