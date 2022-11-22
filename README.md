@@ -157,8 +157,3 @@ Based on recent early community work, we might see features like:
        * New wallpapers
        * new watchfaces
        * Telescope
-
-   * FAQ(?)
-       * Y u no support WearOS apps 1!11?
-       * Port for esoteric watch xyz, when?
-       * Can you or google still spy on me?
