@@ -134,9 +134,9 @@ As we already mentioned in a [previous blog post](https://asteroidos.org/news/fa
 
 ## The Future
 
-As you might have noticed, the current releases linked on the installation pages, have feature parity with the 2.0 release. At some point, we decided to switch from our stable 1.0 release to a quasi 1.1 nightly rolling release, as the 1.0 release became too old to maintain. In the future, we would like to change our release cycle to offer more frequent stable releases. A stable release will always be stable. But not too old to no longer be maintainable.
+As you might have noticed, the current releases linked on the installation pages have feature parity with the 2.0 release. At some point, we decided to switch from our stable 1.0 release to a quasi 1.1 nightly rolling release, as the 1.0 release became too old to maintain. In the future, we would like to change our release cycle to offer more frequent stable releases. A stable release will always be stable. But not too old to no longer be maintainable.
 
-For the future, we are going to set up a roadmap for features we would like to see in an eventual next release.\
+For the future, we are going to set up a roadmap for features we would like to see in an eventual next release.
 Based on recent early community work, we might see features like:
 
    * Combined fitness app (Privacy minded heart rate monitoring and step counter tracking)
