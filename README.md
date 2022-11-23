@@ -131,21 +131,21 @@ eLtMosen has created the minimalistic [pulsedot watchface](https://www.youtube.c
 
 MagneFire did show-off a few emulators, Doom, [Super Tux Kart](https://fosstodon.org/@MagneFire/107105850296484856) and a 2048 port on his watch.
 
-The creator of the unofficial [Subreddit](https://www.reddit.com/r/AsteroidOS/) gave us full access, making it an official channel alongside the [new Mastodon account](https://fosstodon.org/@AsteroidOS).
+The creator of the unofficial [Subreddit](https://www.reddit.com/r/AsteroidOS/) gave us full access, making it an official channel alongside our [Mastodon account](https://fosstodon.org/@AsteroidOS).
 As we already mentioned in a [previous blog post](https://asteroidos.org/news/farewell-freenode), we moved all our communication from freenode to Matrix and Libera.chat.
 
 ## The Future
 
-As you might have noticed, the current releases on the installation page already seem to have a feature parity with the 2.0 release. The reason behind this is that at some point we decided to switch from our stable 1.0 release to the 1.1 nightly release as the 1.0 release became too old. In the future we would like to change our release cycle to release more often. So that a stable release will always be stable but not too old where it is no longer maintainable.
+As you might have noticed, the current releases linked on the installation pages have feature parity with the 2.0 release. At some point, we decided to switch from our stable 1.0 release to a quasi 1.1 nightly rolling release, as the 1.0 release became too old to maintain. In the future, we would like to change our release cycle to offer more frequent stable releases. A stable release will always be stable. But not too old to no longer be maintainable.
 
-
-For the future we also would like to setup a roadmap to what we would like to see in an eventual next release.\
+For the future, we are going to set up a roadmap for features we would like to see in an eventual next release.
 Based on recent early community work, we might see features like:
 
    * Combined fitness app (Privacy minded heart rate monitoring and step counter tracking)
    * WiFi setup via the settings app
    * Web based Watchface creation tool
-   * App store making community contributions easily available
+   * Web based flash tool
+   * App store for making community contributions easily available
 
 
 
