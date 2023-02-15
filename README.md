@@ -30,7 +30,10 @@ Improved toggles, progress bars and other UI elements by unifying the design and
 Four more App Launcher styles have been added. Those can be selected in the new Launcher settings page.
    * [Enhanced Wallpaper](https://github.com/AsteroidOS/asteroid-settings/pull/39) and [Watchface gallery](https://github.com/AsteroidOS/asteroid-settings/pull/40)  
 Watchfaces are now paired with the user selected Wallpaper already in the Watchface gallery. Helping to find your favourite combination at a glance. Both pages received major performance improvements.
-   * [Ringtone vibration pattern](https://github.com/AsteroidOS/asteroid/issues/99)
+   * [Nightstand mode](https://github.com/AsteroidOS/asteroid-settings/pull/49)  
+Use your watch as a bedside clock or simply show charging much more clearly. Selected watchfaces show a large charging status when power is connected. 
+The nightstand settings page makes this mode very versatile. Thanks to beroset for the initial idea and implementation.
+   * [Ringtone vibration pattern](https://github.com/AsteroidOS/asteroid/issues/99)  
 Customise all the things! Here, the vibration pattern on incoming calls.
    * [Lag fix when multiple notifications appear](https://github.com/AsteroidOS/asteroid-launcher/pull/58)  
 Successful bug hunt is always satisfying. Even more so in an area we use frequently.
