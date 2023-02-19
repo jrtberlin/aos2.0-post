@@ -63,22 +63,27 @@ A very small touch. But yet another possibility for designers to get involved.
 
 Since 1.0 we added support for the following watches:
 
+   * Fossil Gen 4 Watches (firefish/ray)
    * Huawei Watch (sturgeon)
    * Huawei Watch 2 (sawfish/sawshark)
+   * LG Watch W7 (narwhal)
    * Moto 360 2015 (smelt)
    * MTK6580 (harmony/inharmony)
+   * OPPO Watch (beluga)
    * Ticwatch E \& S (mooneye)
-   * Fossil Gen 4 Watches (firefish/ray)
-   * Ticwatch C2+ (skipjack)
+   * Ticwatch C2+ \& C2 (skipjack)
+   * Ticwatch E2 \& S2 (tunny)
    * Ticwatch Pro, Pro 2020 and LTE (catfish/catfish-ext/catshark)
-   * LG Watch W7 (narwhal)
 
+These watches are in early porting stage:
 
-In addition to new watches, we've also been busy improving the support for our already supported watches:
+   * Casio WSD-FXX series (ayu/koi)
+   * Fossil Gen 5 Watches (triggerfish)
+   * LG Watch Urbane 2nd edition (nemo)
+   * Polar M600 (pike)
 
-   * Asus Zenwatch: The long standing issue of the touch screen issue has been solved.
-   * Asus Zenwatch 2: Sensors have been fixed. Bluetooth problems fixed.
-   * Asus Zenwatch 3: Sensors have been fixed.
+Apart from adding new watches, the community has also been actively enhancing the support for our existing range of watches.
+Visit our newly created [feature matrix page](https://asteroidos.org/install/features/) to find out about the detailed support level for your watch.
 
 Despite recent minor improvements we decided to remove the Sony Smartwatch 3 (tetra) from our official support due to hardware [issues](https://github.com/AsteroidOS/meta-tetra-hybris/issues). We will provide install images (via [release.asteroidos.org](https://release.asteroidos.org)) for the time being but we are not listing it as a supported watch on our webpage anymore.
 
