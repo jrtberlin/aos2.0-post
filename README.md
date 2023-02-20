@@ -132,7 +132,10 @@ Watchface creation has been a popular community activity lately. We are happy to
 Our community came up with funny and beautiful new watchfaces. Here are some examples of the recent highlights:
 eLtMosen has created the minimalistic [pulsedot watchface](https://www.youtube.com/watch?v=UETFXGV2dgU) and the Monty Python [silly walks watchface](https://twitter.com/eLtMosen/status/1403642123338014722). Most of his creations are available in the [unofficial-watchface repository](https://github.com/AsteroidOS/unofficial-watchfaces).
 
-MagneFire did show-off a few emulators, Doom, [Super Tux Kart](https://fosstodon.org/@MagneFire/107105850296484856) and a 2048 port on his watch.
+MagneFire did show-off a few emulators, Doom and [Super Tux Kart](https://fosstodon.org/@MagneFire/107105850296484856) on his watch. A 2048 port called diamonds was recently included into the stock set of apps.
+
+Dodoradio worked on a few weird watches, like the [LG Watch W7](https://asteroidos.org/install/narwhal/) with physical hands to be taken into account. And the [Casio WSD-FXX series](https://github.com/AsteroidOS/meta-smartwatch/pull/140) with it's multifunctional secondary displays. Along with some more conventional ports such as the Fossil Gen5 and Polar M600.  
+The program [lcd-tools](https://github.com/AsteroidOS/lcd-tools) by lecris and Magnefire was originally developed to control the LCD on the TicWatch Pro. And got extended by dodoradio and beroset to make use of many more features the casio secondary displays offer.
 
 The creator of the unofficial [Subreddit](https://www.reddit.com/r/AsteroidOS/) gave us full access, making it an official channel alongside our [Mastodon account](https://fosstodon.org/@AsteroidOS).
 As we already mentioned in a [previous blog post](https://asteroidos.org/news/farewell-freenode), we moved all our communication from freenode to Matrix and Libera.chat.
