@@ -101,6 +101,9 @@ Despite recent minor improvements we decided to remove the Sony Smartwatch 3 (te
 
 After our initial release [StefWe](https://github.com/StefWe) created [Telescope](https://github.com/AsteroidOS/telescope) a sync client for UBports.
 
+### [Gadgetbridge AsteroidOS support](https://codeberg.org/Freeyourgadget/Gadgetbridge)
+
+Thanks to Noodlez, initial AsteroidOS support has been added to [Gadgetbridge version 0.73.0](https://codeberg.org/Freeyourgadget/Gadgetbridge/src/branch/master/CHANGELOG.md). 
 
 ### [Starship](https://openrepos.net/content/asteroidos/starship) (SailfishOS)
 
