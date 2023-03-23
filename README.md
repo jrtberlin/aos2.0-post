@@ -70,8 +70,9 @@ Since 1.0 we added support for the following watches:
    * Moto 360 2015 (smelt)
    * MTK6580 (harmony/inharmony)
    * OPPO Watch (beluga)
-   * Ticwatch E \& S (mooneye)
+   * Polar M600 (pike)   
    * Ticwatch C2+ \& C2 (skipjack)
+   * Ticwatch E \& S (mooneye)   
    * Ticwatch E2 \& S2 (tunny)
    * Ticwatch Pro, Pro 2020 and LTE (catfish/catfish-ext/catshark)
 
@@ -80,12 +81,11 @@ These watches are in early porting stage:
    * Casio WSD-FXX series (ayu/koi)
    * Fossil Gen 5 Watches (triggerfish)
    * LG Watch Urbane 2nd edition (nemo)
-   * Polar M600 (pike)
 
 Apart from adding new watches, the community has also been actively enhancing the support for our existing range of watches.
 Visit our newly created [feature matrix page](https://asteroidos.org/install/features/) to find out about the detailed support level for your watch.
 
-Despite recent minor improvements we decided to remove the Sony Smartwatch 3 (tetra) from our official support due to hardware [issues](https://github.com/AsteroidOS/meta-tetra-hybris/issues). We will provide install images (via [release.asteroidos.org](https://release.asteroidos.org)) for the time being but we are not listing it as a supported watch on our webpage anymore.
+Despite recent minor improvements, we have decided to remove the Sony Smartwatch 3 (tetra) from our official support due to unresolved hardware [issues](https://github.com/AsteroidOS/meta-tetra-hybris/issues). Additionally, the Samsung Gear Live (sprat) is currently in an unusable state due to persistent display issues. Although the Moto 360 1st gen (minnow) has been successfully ported, it shows underwhelming performance as it is the only watch we have ported with a TI SoC. We will continue to provide install images for these watches, and we welcome new contributors with fresh ideas to help improve support. However, for the time being, we have created an Experimental category in our watch gallery for watches that we do not consider to be suitable for daily use.
 
 ## Synchronisation Clients
 
