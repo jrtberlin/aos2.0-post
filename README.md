@@ -58,6 +58,7 @@ The timer app works in the background now. It got optimised for use on round wat
 Yup, it flashes light. Most useful, so it got added to the stock selection.
    * [Animated Bootsplash logo](https://github.com/AsteroidOS/meta-asteroid/commit/b8f4403139cabf0ff83a663968d901c668151180)  
 A very small touch. But yet another possibility for designers to get involved.
+   * [Round screens with a tyre cut-off](https://github.com/AsteroidOS/meta-asteroid/pull/41) are now supported.
 
 
 ## Supported Hardware
@@ -123,13 +124,15 @@ eLtMosen has contributed a variety of watchfaces. Two highlights are the minimal
 
 MagneFire did show-off [Doom](https://twitter.com/MagneFire_/status/1230159641004445696), [Super Tux Kart](https://fosstodon.org/@MagneFire/107105850296484856), [gpSP](https://twitter.com/MagneFire_/status/1220789841673236485) and other [emulated games](https://twitter.com/MagneFire_/status/1353443545831510016) on his watch. The native 2048 port called diamonds was recently included into the stock set of apps.
 
-Dodoradio worked on a few unusual watches, like the [LG Watch W7](https://asteroidos.org/install/narwhal/) with its physical hands to be taken into account. And the [Casio WSD-FXX series](https://github.com/AsteroidOS/meta-smartwatch/pull/140) sporting multifunctional secondary displays. Along with some more conventional ports such as the Fossil Gen5 and Polar M600.
+Dodoradio worked on a few unusual watches, like the [LG Watch W7](https://asteroidos.org/install/narwhal/) with its physical hands to be taken into account. And the [Casio WSD-FXX series](https://github.com/AsteroidOS/meta-smartwatch/pull/140) sporting multifunctional secondary displays. Along with some more conventional ports such as the Fossil Gen5 and Polar M600. For watches with GPS, he contributed a [Map app with waypoint functionality](https://git.dodorad.io/dodoradio/asteroid-map/about) to the community repository.
 
 Beroset implemented the new [Nightstand mode](https://asteroidos.org/news/nightstand/index.html). In addition to his efforts in maintaining the build tools, Beroset has also developed [host-tools](https://github.com/beroset/asteroid-hosttools) which make it easier to work on watches from a Linux host. Furthermore, he has included a user-friendly GUI for deploying watchfaces.
 
 PostmarketOS now offers our launcher and core apps, thanks to [PureTryOut](todo), who moved our buildsystem from qmake to cmake along the way.
 
 The program [lcd-tools](https://github.com/AsteroidOS/lcd-tools) by lecris and Magnefire was originally developed to control the secondary LCD on the TicWatch Pro. And got extended by dodoradio and beroset to make use of many more features the casio secondary displays offer.
+
+MagneFire, jrt and eLtMosen joined the AsteroidOS team.
 
 
 ## Infrastructure
@@ -148,13 +151,6 @@ With 2.0 we introduce a community repository, to improve discoverability and sim
 After moving our infrastructure to a larger server, we have seen an increase in the frequency of nightly releases. However, it is worth noting that completely rebuilding all packages for all 26 watch system images still takes almost a week. Therefore, we can expect the nightlies to be ready on weekends. 
 
 For the repository of our Android app AsteroidOS Sync, we enabled automatic builds on pull requests to catch issues with future changes early.
-
-
-## Minor Changes
-
-AsteroidOS now supports [round screens with a cut-off](https://github.com/AsteroidOS/meta-asteroid/pull/41).
-
-MagneFire, jrt and eLtMosen joined the AsteroidOS team.
 
 
 ## The Future
