@@ -88,6 +88,7 @@ Visit our newly created [feature matrix page](https://asteroidos.org/install/fea
 
 Despite recent minor improvements, we have decided to remove the Sony Smartwatch 3 (tetra) from our official support due to unresolved hardware [issues](https://github.com/AsteroidOS/meta-tetra-hybris/issues). Additionally, the Samsung Gear Live (sprat) is currently in an unusable state due to persistent display issues. Although the Moto 360 1st gen (minnow) has been successfully ported, it shows underwhelming performance as it is the only watch we have ported with a TI SoC. We will continue to provide install images for these watches, and we welcome new contributors with fresh ideas to help improve support. However, for the time being, we have created an Experimental category in our watch gallery for watches that we do not consider to be suitable for daily use.
 
+
 ## Synchronisation Clients
 
 ### [AsteroidOS Sync](https://f-droid.org/en/packages/org.asteroidos.sync/) (Android)
@@ -111,43 +112,50 @@ Thanks to Noodlez, initial AsteroidOS support has been added to [Gadgetbridge ve
 Enabled by recent improvements in the SailfishOS BLE stack, our community member [GeoffTearle](https://github.com/GeoffTearle) got our [client for SailfishOS](https://github.com/AsteroidOS/starfish) into a working state. 
 
 
+## Community
+
+Over the years, the AsteroidOS community has expanded its reach, with community translators adding over 20 languages to the [AsteroidOS Weblate](https://hosted.weblate.org/projects/asteroidos/#languages). Translating into your local language is the easiest way to get involved. Your help is most valuable to make AsteroidOS fit for use in your region.
+
+Watchface creation has been a popular community activity lately. We are happy to present the new and comprehensive [watchfaces creation and design guide](https://asteroidos.org/wiki/watchfaces-creation/). It is garnished with testing and deployment scripts to simplify the process further. 
+Our community came up with funny and beautiful new watchfaces. Those are all collected in the [unofficial watchfaces repository](https://github.com/AsteroidOS/unofficial-watchfaces).
+
+eLtMosen has contributed a variety of watchfaces. Two highlights are the minimalistic [pulsedot](https://youtu.be/cXeWRX6N6Sg) and a classic Monty Python inspired [silly walks watchface](https://twitter.com/eLtMosen/status/1403642123338014722).
+
+MagneFire did show-off [Doom](https://twitter.com/MagneFire_/status/1230159641004445696), [Super Tux Kart](https://fosstodon.org/@MagneFire/107105850296484856), [gpSP](https://twitter.com/MagneFire_/status/1220789841673236485) and other [emulated games](https://twitter.com/MagneFire_/status/1353443545831510016) on his watch. The native 2048 port called diamonds was recently included into the stock set of apps.
+
+Dodoradio worked on a few unusual watches, like the [LG Watch W7](https://asteroidos.org/install/narwhal/) with its physical hands to be taken into account. And the [Casio WSD-FXX series](https://github.com/AsteroidOS/meta-smartwatch/pull/140) sporting multifunctional secondary displays. Along with some more conventional ports such as the Fossil Gen5 and Polar M600.
+
+Beroset implemented the new [Nightstand mode](https://asteroidos.org/news/nightstand/index.html). In addition to his efforts in maintaining the build tools, Beroset has also developed [host-tools](https://github.com/beroset/asteroid-hosttools) which make it easier to work on watches from a Linux host. Furthermore, he has included a user-friendly GUI for deploying watchfaces.
+
+PostmarketOS now offers our launcher and core apps, thanks to [PureTryOut](todo), who moved our buildsystem from qmake to cmake along the way.
+
+The program [lcd-tools](https://github.com/AsteroidOS/lcd-tools) by lecris and Magnefire was originally developed to control the secondary LCD on the TicWatch Pro. And got extended by dodoradio and beroset to make use of many more features the casio secondary displays offer.
+
 
 ## Infrastructure
 
-Our website [asteroidos.org](https://asteroidos.org) has seen a major content extension. A [FAQ](https://asteroidos.org/faq/) section has been added to provide a quick overview of our project. The [Documentation](https://asteroidos.org/wiki/documentation/) pages are frequently updated by community members and nicely keep up with the current state of development.
+Our website [asteroidos.org](https://asteroidos.org) has seen a major content extension.
+   * A [FAQ](https://asteroidos.org/faq/) section has been added to provide a quick overview of our project.
+   * The Install page has grown into a gallery of supported watches over time with now 22 watches listed. We renamed it to "[Watches](https://asteroidos.org/watches/)" and plan to evolve this page into a purchase guide to aid new users in choosing a supported watch. A first step was to resize the images of all watches to correctly reflect the relative size differences between them, to be able to compare their dimensions.
+   * The [Documentation](https://asteroidos.org/wiki/documentation/) pages are frequently updated by community members and nicely keep up with the current state of development. We recently switched to Markdown as our primary markup language for documentation. This enables users without deeper knowledge to contribute to the documentation via GitHub's integrated editor. And will help us to switch the static site generator in the future.
 
-With 2.0 we introduce a community repository, to improve discoverability and simplify the installation of precompiled packages, while building the foundation for a possible graphical software center in the future. Currently, the repository consists of a few debugging tools, {community watchfaces}, games and emulators. Developers are welcome to create pull requests on the [meta-community](https://github.com/AsteroidOS/meta-asteroid-community) repo for packaging.
+The creator of the unofficial [Subreddit](https://www.reddit.com/r/AsteroidOS/) gave us full access, making it an official channel alongside our [Mastodon account](https://fosstodon.org/@AsteroidOS).
 
-The second and smaller change is the switch to Markdown as our primary markup language for documentation. This enables users without deeper knowledge to contribute to the documentation via GitHub's integrated editor. And will help us to switch the static site generator in the future.
+As we already mentioned in a [previous blog post](https://asteroidos.org/news/farewell-freenode), we moved all our communication from freenode to Matrix and Libera.chat. You are invited to join the AsteroidOS Matrix channel using this link. [https://matrix.to/#/#Asteroid:matrix.org](https://matrix.to/#/#Asteroid:matrix.org)
 
-In late March, we moved our infrastructure to a larger server. This resulted in more frequent nightly releases.
+With 2.0 we introduce a community repository, to improve discoverability and simplify the installation of precompiled packages, while building the foundation for a possible graphical software center in the future. Currently, the repository consists of a few debugging tools, community watchfaces, games and emulators. Developers are welcome to create pull requests on the [meta-community](https://github.com/AsteroidOS/meta-asteroid-community) repo for packaging.
+
+After moving our infrastructure to a larger server, we have seen an increase in the frequency of nightly releases. However, it is worth noting that completely rebuilding all packages for all 26 watch system images still takes almost a week. Therefore, we can expect the nightlies to be ready on weekends. 
 
 For the repository of our Android app AsteroidOS Sync, we enabled automatic builds on pull requests to catch issues with future changes early.
+
 
 ## Minor Changes
 
 AsteroidOS now supports [round screens with a cut-off](https://github.com/AsteroidOS/meta-asteroid/pull/41).
 
-PostmarketOS now offers our launcher and core apps, thanks to [PureTryOut](todo), who moved our buildsystem from qmake to cmake along the way.
-
 MagneFire, jrt and eLtMosen joined the AsteroidOS team.
 
-## Community
-
-In the past years, community translators have added more than 20 languages to the [AsteroidOS Weblate](https://hosted.weblate.org/projects/asteroidos/#languages). Translating into your local language is the easiest way to get involved. Your help is most valuable to make AsteroidOS fit for use in your region.
-
-Watchface creation has been a popular community activity lately. We are happy to present the new and comprehensive [watchfaces creation and design guide](https://asteroidos.org/wiki/watchfaces-creation/). It is garnished with testing and deployment scripts to simplify the process further. 
-
-Our community came up with funny and beautiful new watchfaces. Here are some examples of the recent highlights:
-eLtMosen has created the minimalistic [pulsedot watchface](https://www.youtube.com/watch?v=UETFXGV2dgU) and the Monty Python [silly walks watchface](https://twitter.com/eLtMosen/status/1403642123338014722). Most of his creations are available in the [unofficial-watchface repository](https://github.com/AsteroidOS/unofficial-watchfaces).
-
-MagneFire did show-off a few emulators, Doom and [Super Tux Kart](https://fosstodon.org/@MagneFire/107105850296484856) on his watch. A 2048 port called diamonds was recently included into the stock set of apps.
-
-Dodoradio worked on a few weird watches, like the [LG Watch W7](https://asteroidos.org/install/narwhal/) with physical hands to be taken into account. And the [Casio WSD-FXX series](https://github.com/AsteroidOS/meta-smartwatch/pull/140) with it's multifunctional secondary displays. Along with some more conventional ports such as the Fossil Gen5 and Polar M600.  
-The program [lcd-tools](https://github.com/AsteroidOS/lcd-tools) by lecris and Magnefire was originally developed to control the LCD on the TicWatch Pro. And got extended by dodoradio and beroset to make use of many more features the casio secondary displays offer.
-
-The creator of the unofficial [Subreddit](https://www.reddit.com/r/AsteroidOS/) gave us full access, making it an official channel alongside our [Mastodon account](https://fosstodon.org/@AsteroidOS).
-As we already mentioned in a [previous blog post](https://asteroidos.org/news/farewell-freenode), we moved all our communication from freenode to Matrix and Libera.chat.
 
 ## The Future
 
