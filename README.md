@@ -1,3 +1,4 @@
+![AsteroidOS banner](./assets/banner-five-watches.png)
 
 # AsteroidOS 2.0
 
