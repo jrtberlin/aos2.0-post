@@ -132,7 +132,7 @@ PostmarketOS now offers our launcher and core apps, thanks to [PureTryOut](todo)
 
 The program [lcd-tools](https://github.com/AsteroidOS/lcd-tools) by lecris and Magnefire was originally developed to control the secondary LCD on the TicWatch Pro. And got extended by dodoradio and beroset to make use of many more features the casio secondary displays offer.
 
-MagneFire, jrt and eLtMosen joined the AsteroidOS team.
+MagneFire, jrt, eLtMosen and beroset joined the AsteroidOS team.
 
 
 ## Infrastructure
