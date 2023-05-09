@@ -25,8 +25,6 @@ Always-on-Display, many more supported watches, new launcher styles, major perfo
 
 ## Design, usability and app improvements
 
-   * New UI elements  
-Improved toggles, progress bars and other UI elements by unifying the design and removing inconsistencies.
    * [New App Launchers](https://github.com/AsteroidOS/asteroid-settings/pull/35)  
 Four more App Launcher styles have been added. Those can be selected in the new Launcher settings page.
    * [Enhanced Wallpaper](https://github.com/AsteroidOS/asteroid-settings/pull/39) and [Watchface gallery](https://github.com/AsteroidOS/asteroid-settings/pull/40)  
@@ -34,6 +32,8 @@ Watchfaces are now paired with the user selected Wallpaper already in the Watchf
    * [Nightstand mode](https://github.com/AsteroidOS/asteroid-settings/pull/49)  
 Use your watch as a bedside clock or simply show charging much more clearly. Selected watchfaces show a large charging status when power is connected. 
 The nightstand settings page makes this mode very versatile. Thanks to beroset for the initial idea and implementation.
+   * [New UI elements and polished icons](https://github.com/AsteroidOS/asteroid-icons-ion/pull/18/files)  
+Improved toggles, progress bars and other UI elements by unifying the design and removing inconsistencies.
    * [Ringtone vibration pattern](https://github.com/AsteroidOS/asteroid/issues/99)  
 Customise all the things! Here, the vibration pattern on incoming calls.
    * [Lag fix when multiple notifications appear](https://github.com/AsteroidOS/asteroid-launcher/pull/58)  
