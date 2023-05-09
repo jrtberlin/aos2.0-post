@@ -66,6 +66,7 @@ A very small touch. But yet another possibility for designers to get involved.
 Since 1.0 we added support for the following watches:
 
    * Fossil Gen 4 Watches (firefish/ray)
+   * Fossil Gen 6 Watches (hoki)
    * Huawei Watch (sturgeon)
    * Huawei Watch 2 (sawfish/sawshark)
    * LG Watch W7 (narwhal)
