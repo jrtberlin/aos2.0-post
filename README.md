@@ -129,7 +129,7 @@ Dodoradio worked on a few unusual watches, like the [LG Watch W7](https://astero
 
 Beroset implemented the new [Nightstand mode](https://asteroidos.org/news/nightstand/index.html). In addition to his efforts in maintaining the build tools, Beroset has also developed [host-tools](https://github.com/beroset/asteroid-hosttools) which make it easier to work on watches from a Linux host. Furthermore, he has included a user-friendly GUI for deploying watchfaces.
 
-PostmarketOS now offers our launcher and core apps, thanks to [PureTryOut](todo), who moved our buildsystem from qmake to cmake along the way.
+PostmarketOS now offers our launcher and core apps, thanks to postmarketOS developer PureTryOut, who moved our buildsystem from qmake to cmake along the way.
 
 The program [lcd-tools](https://github.com/AsteroidOS/lcd-tools) by lecris and Magnefire was originally developed to control the secondary LCD on the TicWatch Pro. And got extended by dodoradio and beroset to make use of many more features the casio secondary displays offer.
 
